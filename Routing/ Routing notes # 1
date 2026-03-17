@@ -1,0 +1,22 @@
+#The Goal in this practical lab is to troubleshoot and Ping basic routers together 
+#Packet Tracer Lab 1 
+
+Router> en 
+Router#conf t? 
+Router (config) #int?
+Router(config)#interface gigabitEthernet
+Router(config)#interface gigabitEthernet 0/0/0
+Router(config-if)#ip address 10.1.1.1 255.255.255.0 
+Router(config-if)#no shutdown 
+Router(config-if)#end 
+
+Show the interface brief?
+
+# Final step?
+# Using a command such as Ping? to test Connectivity 
+
+#What did I learn from this lab?
+  -configure router interface 
+  -Assign IP Addresses 
+  -Use no shutdown 
+  -Use show IP interface brief to troubleshoot 
