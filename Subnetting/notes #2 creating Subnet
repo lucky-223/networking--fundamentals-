@@ -1,5 +1,9 @@
 # When you need more networks, you need more bits 
-  1-Calculate how many host bits you need to Hack 
-  2- Hack the host bits 
-  3- Find the increment
-  4- Create your networks 
+  1- Network Address/ Subnet Address
+      -The First Address in the subnet 
+  2- Broadcast Address
+      -The last Address in the subnet 
+  3- First available Host address
+      -One more than the network address 
+  4- Last available Host address 
+      -One less than the broadcast address 
