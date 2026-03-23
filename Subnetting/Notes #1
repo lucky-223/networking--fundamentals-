@@ -1,1 +1,25 @@
+Subnet Mask 
+  Network Address 
+    -The ID of the network itself 
+    -Used by routers 
+    -Cannot be assigned to a host 
+    -Identifies which network you're on 
 
+  Network Mask 
+    -Used to determine the network and host portion
+    -Is it a device remote or local?
+    -Allows us to determine the portion of addresses that is the host and the network 
+    -This allows local PC 
+          -Determine which device to communicate with 
+          -Remote 
+              -Thus reached Via default gateway /24
+          -Local 
+              -Does not require a default gateway /16 
+
+Network Mask 
+
+    Class A, B, and C networks have a default mask, also known as a natural mask
+
+**There are always two network address that they can not touch 
+    192.168.1.0 = Network Address
+    192.168.1.255 = Broadcast Address 
