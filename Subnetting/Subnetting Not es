@@ -1,0 +1,22 @@
+## Subnetting Notes #2 
+
+## What is Subnetting?
+  Sunetting is the process of divinding a network into smaller Networks 
+
+## Example 
+IP: 192.168.1.0/24 
+## Key Concepts 
+  -Netowkr Address 
+  -Broadcast Addres 
+  -Usable Hosts
+
+## Magic Numbers 
+128,   64,  32,   16,   8  ,    4  ,  2  ,  1
+128 ,  192,  224,  240 , 248,  252,  254,  255 
+
+
+## Example Subnet 
+/26 = 64 addresses 
+-Network: 192. 68. 1 .0
+-Broadcast : 192 . 168 .1 . 63 
+Usable : 62 hosts 
