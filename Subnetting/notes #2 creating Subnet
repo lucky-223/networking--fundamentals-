@@ -27,17 +27,4 @@
 
 /31-/32      Special Use 
 
-Subnetting Rule 
 
-/1 - /8 
-Subnetting Happens in 1st Octet 
-
-/9- /16 
-
-Subnetting Happens 2nd Octet 
-
-/17 -/24 
-Subnetting happens 3rd Octet 
-
-/25- /32 
-Subnetting happens 4th Octet 
