@@ -7,3 +7,37 @@
       -One more than the network address 
   4- Last available Host address 
       -One less than the broadcast address 
+
+
+ Classes 
+
+/1 - /7   (Rare/Large Networks)
+
+/8         (Class A) 
+
+/9-/15      Subnetted Class A 
+
+/ 16        (Class B)           
+
+/17-/23     Subnetted Class B 
+
+/24          Class C 
+
+/25-/30      Subnetted Class C 
+
+/31-/32      Special Use 
+
+Subnetting Rule 
+
+/1 - /8 
+Subnetting Happens in 1st Octet 
+
+/9- /16 
+
+Subnetting Happens 2nd Octet 
+
+/17 -/24 
+Subnetting happens 3rd Octet 
+
+/25- /32 
+Subnetting happens 4th Octet 
