@@ -19,6 +19,7 @@ First Host IP:     10.2.2.1
 Last Host IP:      10.2.2.126
 Next Network:     10.2.2.128
 # IP Addresses:   128
+128 - 2 = 126 Usable Host 
 CIDR/Subnet: 255. 255. 255. 128
 
 0.
@@ -44,6 +45,7 @@ First Host IP: 10.2.2.193
 Last Host IP:  10.2.2.254
 Next Network: 10.2.3.0
 # IP Adresses:64 
+64 - 2 = 62 Usable Host 
 CIDR/Subnet: 255. 255. 255. 192 
 
 0. 
