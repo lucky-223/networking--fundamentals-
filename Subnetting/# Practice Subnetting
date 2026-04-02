@@ -25,3 +25,43 @@ CIDR/Subnet: 255. 255. 255. 128
 128.
 256.
 10.2.2.0
+
+
+
+
+
+# More Pratice 
+# Magic Chart 
+128,  64,    32,    16,   8,    4,    2,    1
+128,  192,  224,  240,  248,  252,  254,  255
+/25,  /26,  /27,  /28  /29,  /30,  /31,  /32
+
+10.2.2.199 /26 
+
+Network ID: 10.2.2.192
+Broadcast IP: 10.2.2.255
+First Host IP: 10.2.2.193
+Last Host IP:  10.2.2.254
+Next Network: 10.2.3.0
+# IP Adresses:64 
+CIDR/Subnet: 255. 255. 255. 192 
+
+0. 
+64.
+128.
+192.
+256.
+
+# So in this scenario, you can't pass the 256 mark..
+# instead of having the subnet mask of 255. 255. 255. 256 
+# We have to increase an Octet by one 
+  10.2.2.0
+  10.2.2.64
+  10.2.2.128
+  10.2.2.192
+    10.2.3.0 
+
+
+
+
+
